@@ -18,12 +18,12 @@ namespace AppointmentServiceAPI
             // Add services to the container.
             builder.Services.AddHttpClient("DoctorService", client =>
             {
-                client.BaseAddress = new Uri("http://localhost:5259/api/Doctor/");
+                client.BaseAddress = new Uri("https://doctorapi-bmazacbtbyh3fqaq.centralus-01.azurewebsites.net/api/Doctor/");
             });
             builder.Services.AddScoped<IDoctorServiceClient, DoctorServiceClient>();
             builder.Services.AddHttpClient("PatientService", client =>
             {
-                client.BaseAddress = new Uri("http://localhost:5062/api/Patient/");
+                client.BaseAddress = new Uri("https://patientapi-fbdpg4gnc9fdcad5.centralus-01.azurewebsites.net/api/Patient/");
             });
             builder.Services.AddScoped<IPatientServiceClient, PatientServiceClient>();
             var connectionstring = builder.Configuration.

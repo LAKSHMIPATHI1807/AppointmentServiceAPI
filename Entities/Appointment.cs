@@ -1,6 +1,6 @@
 ﻿using AppointmentServiceAPI.DTOs.External;
-using DoctorServiceAPI.Entities;
-using PatientServiceAPI.Entities;
+//using DoctorServiceAPI.Entities;
+//using PatientServiceAPI.Entities;
 using System.Numerics;
 
 namespace AppointmentServiceAPI.Entities

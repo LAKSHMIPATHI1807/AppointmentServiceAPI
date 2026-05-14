@@ -9,7 +9,6 @@
       "AppointmentServiceAPI/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.1.1",
-          "DoctorServiceAPI": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.7",
           "Microsoft.AspNetCore.OpenApi": "10.0.6",
           "Microsoft.Data.SqlClient": "7.0.0",
@@ -17,7 +16,6 @@
           "Microsoft.EntityFrameworkCore.Design": "10.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
           "Ocelot.Provider.Polly": "24.1.0",
-          "PatientServiceAPI": "1.0.0",
           "Swashbuckle.AspNetCore": "10.1.7"
         },
         "runtime": {
@@ -888,42 +886,6 @@
             "fileVersion": "9.0.1326.6317"
           }
         }
-      },
-      "DoctorServiceAPI/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "16.1.1",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.7",
-          "Microsoft.AspNetCore.OpenApi": "10.0.6",
-          "Microsoft.Data.SqlClient": "7.0.0",
-          "Microsoft.EntityFrameworkCore": "10.0.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
-          "Ocelot.Provider.Polly": "24.1.0",
-          "Swashbuckle.AspNetCore": "10.1.7"
-        },
-        "runtime": {
-          "DoctorServiceAPI.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "PatientServiceAPI/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "16.1.1",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.7",
-          "Microsoft.AspNetCore.OpenApi": "10.0.6",
-          "Microsoft.Data.SqlClient": "7.0.0",
-          "Microsoft.EntityFrameworkCore": "10.0.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
-          "Ocelot.Provider.Polly": "24.1.0",
-          "Swashbuckle.AspNetCore": "10.1.7"
-        },
-        "runtime": {
-          "PatientServiceAPI.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -1331,16 +1293,6 @@
       "sha512": "sha512-t8S9IDpjJKsLpLkeBdW8cWtcPyYqrGu93Dej1RO6WwuL/lkFSqWlan3rMJfortqz1mRIh+sys2AFsSA6jWJ3Jg==",
       "path": "system.security.cryptography.protecteddata/9.0.13",
       "hashPath": "system.security.cryptography.protecteddata.9.0.13.nupkg.sha512"
-    },
-    "DoctorServiceAPI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PatientServiceAPI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
