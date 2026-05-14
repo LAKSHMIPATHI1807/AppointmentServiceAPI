@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dQFgDkjJHTE=",
+  "dgSpecHash": "NIX7WSanHl8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\AppointmentServiceAPI\\AppointmentServiceAPI.csproj",
+  "projectFilePath": "C:\\Users\\sampu\\OneDrive\\Desktop\\AppointmentServiceAPI\\AppointmentServiceAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sampu\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\sampu\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",

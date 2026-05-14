@@ -180,3 +180,6 @@ C:\Users\sampu\OneDrive\Desktop\.Net_training\Mini-III\HealthcareManagementSyste
 C:\Users\sampu\OneDrive\Desktop\.Net_training\Mini-III\HealthcareManagementSystem\AppointmentServiceAPI\bin\Debug\net10.0\DoctorServiceAPI.exe
 C:\Users\sampu\OneDrive\Desktop\.Net_training\Mini-III\HealthcareManagementSystem\AppointmentServiceAPI\bin\Debug\net10.0\DoctorServiceAPI.dll
 C:\Users\sampu\OneDrive\Desktop\.Net_training\Mini-III\HealthcareManagementSystem\AppointmentServiceAPI\bin\Debug\net10.0\DoctorServiceAPI.pdb
+C:\Users\sampu\OneDrive\Desktop\AppointmentServiceAPI\obj\Debug\net10.0\AppointmentServiceAPI.dll
+C:\Users\sampu\OneDrive\Desktop\AppointmentServiceAPI\obj\Debug\net10.0\refint\AppointmentServiceAPI.dll
+C:\Users\sampu\OneDrive\Desktop\AppointmentServiceAPI\obj\Debug\net10.0\AppointmentServiceAPI.pdb

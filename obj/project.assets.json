@@ -1270,52 +1270,6 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
-      },
-      "DoctorServiceAPI/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "AutoMapper": "16.1.1",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.7",
-          "Microsoft.AspNetCore.OpenApi": "10.0.5",
-          "Microsoft.Data.SqlClient": "7.0.0",
-          "Microsoft.EntityFrameworkCore": "10.0.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
-          "Ocelot.Provider.Polly": "24.1.0",
-          "Swashbuckle.AspNetCore": "10.1.7"
-        },
-        "compile": {
-          "bin/placeholder/DoctorServiceAPI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DoctorServiceAPI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "PatientServiceAPI/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "AutoMapper": "16.1.1",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.7",
-          "Microsoft.AspNetCore.OpenApi": "10.0.5",
-          "Microsoft.Data.SqlClient": "7.0.0",
-          "Microsoft.EntityFrameworkCore": "10.0.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.6",
-          "Ocelot.Provider.Polly": "24.1.0",
-          "Swashbuckle.AspNetCore": "10.1.7"
-        },
-        "compile": {
-          "bin/placeholder/PatientServiceAPI.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PatientServiceAPI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -3895,22 +3849,11 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "DoctorServiceAPI/1.0.0": {
-      "type": "project",
-      "path": "../DoctorServiceAPI/DoctorServiceAPI.csproj",
-      "msbuildProject": "../DoctorServiceAPI/DoctorServiceAPI.csproj"
-    },
-    "PatientServiceAPI/1.0.0": {
-      "type": "project",
-      "path": "../PatientServiceAPI/PatientServiceAPI.csproj",
-      "msbuildProject": "../PatientServiceAPI/PatientServiceAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "AutoMapper >= 16.1.1",
-      "DoctorServiceAPI >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.7",
       "Microsoft.AspNetCore.OpenApi >= 10.0.6",
       "Microsoft.Data.SqlClient >= 7.0.0",
@@ -3919,7 +3862,6 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.7",
       "Ocelot.Provider.Polly >= 24.1.0",
-      "PatientServiceAPI >= 1.0.0",
       "Swashbuckle.AspNetCore >= 10.1.7"
     ]
   },
@@ -3930,11 +3872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\AppointmentServiceAPI\\AppointmentServiceAPI.csproj",
+      "projectUniqueName": "C:\\Users\\sampu\\OneDrive\\Desktop\\AppointmentServiceAPI\\AppointmentServiceAPI.csproj",
       "projectName": "AppointmentServiceAPI",
-      "projectPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\AppointmentServiceAPI\\AppointmentServiceAPI.csproj",
+      "projectPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\AppointmentServiceAPI\\AppointmentServiceAPI.csproj",
       "packagesPath": "C:\\Users\\sampu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\AppointmentServiceAPI\\obj\\",
+      "outputPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\AppointmentServiceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3956,14 +3898,7 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\DoctorServiceAPI\\DoctorServiceAPI.csproj": {
-              "projectPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\DoctorServiceAPI\\DoctorServiceAPI.csproj"
-            },
-            "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\PatientServiceAPI\\PatientServiceAPI.csproj": {
-              "projectPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\PatientServiceAPI\\PatientServiceAPI.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
